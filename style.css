@@ -27,7 +27,7 @@ h1{
 	background-color:#32CD32;
 }
 
-@media (min-width: 500px){
+@media only screen and (min-width: 500px){
 	h1{
 		position:absolute;
 		top:10%;
@@ -48,7 +48,7 @@ h1{
 	}
 }
 
-@media (max-width: 499px){
+@media only screen and (max-width: 499px){
 	h1{
 		position:absolute;
 		top:10%;
