@@ -1,10 +1,7 @@
 h1{
 	font-family:'Arimo';
 	font-weight:bold;
-	position:absolute;
 	padding:20px;
-	top:10%;
-	left:35%;
 	z-index:-1;
 }
 
@@ -20,18 +17,54 @@ h1{
 
 #single-player {
 	background-color:#03a9f4;
-	position:relative;
-	top:18%;
-	left:40%;
 }
 
 #multi-player {
 	background-color:#00bcd4;
-	position:relative;
-	top:18%;
-	left:41%;
 }
 
 #single-player:hover,#multi-player:hover {
 	background-color:#32CD32;
+}
+
+@media (min-width: 500px){
+	h1{
+		position:absolute;
+		top:10%;
+		left:35%;
+	}
+
+	#single-player{
+	position:relative;
+	top:18%;
+	left:40%;
+	}
+
+	#multi-player{
+	position:relative;
+	top:18%;
+	left:41%;
+
+	}
+}
+
+@media (max-width: 499px){
+	h1{
+		position:absolute;
+		top:10%;
+		left:35%;
+	}
+
+	#single-player{
+	position:relative;
+	top:78%;
+	left:40%;
+	}
+
+	#multi-player{
+	position:relative;
+	top:73%;
+	left:40%;
+
+	}	
 }
