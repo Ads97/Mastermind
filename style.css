@@ -52,19 +52,19 @@ h1{
 	h1{
 		position:absolute;
 		top:10%;
-		left:35%;
+		left:15%;
 	}
 
 	#single-player{
 	position:relative;
-	top:78%;
-	left:40%;
+	top:35%;
+	left:30%;
 	}
 
 	#multi-player{
-	position:relative;
-	top:73%;
-	left:40%;
+	position:absolute;
+	top:46%;
+	left:30%;
 
 	}	
 }
